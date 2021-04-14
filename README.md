@@ -5,5 +5,5 @@ USAGE:
     
     python STV.py <first_username> <second_username>
     
-    There are only 2 arguments, the rest will be ignored.
+There are only 2 arguments, the rest will be ignored.
 
