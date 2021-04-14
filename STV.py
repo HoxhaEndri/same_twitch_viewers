@@ -2,7 +2,7 @@ import json
 import requests
 import sys
 
-if len(sys.argv) == 3:
+if len(sys.argv) >= 3:
     url = "https://tmi.twitch.tv/group/user/"+sys.argv[1]+"/chatters"
     url_volpe = requests.get(url)
     url = "https://tmi.twitch.tv/group/user/"+sys.argv[2]+"/chatters"
